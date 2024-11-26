@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Codeforces Language Finder",
+    "description": "Find the preferred programming language of a Codeforces user.",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "host_permissions": ["https://codeforces.com/api/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon-16.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png"
+      }
+    }
+  }
+  
